@@ -9,16 +9,20 @@ implemented in fixed_hash_map.go and tested in fixed_hash_map_test.go. In order 
 
 If intended to use in external functionality:
 
-''''go
+```go
+
 import "FixedHashMap"
-''''
+
+```
 
 Should be designed to deal with concurrency, but might behave with issues with serious parrallelization!
 
 to create new FixedHashMap, use the constructor as following:
 
-''''go
+```go
+
 map := NewFixedHashMap(size)
-''''
+
+```
 
 Where size is the fixed size of the map.
