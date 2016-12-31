@@ -1,0 +1,3 @@
+There are two different implementations of Maps in this directory. The naive_map contains an implementation of a basic direct lineage map, with poorer runtimes but better memory management.
+The fixed_hash_map implements a Linear Probing model of a hash table. This one is far more run time friendly. Both follow the given contruction requirements. The better coding sample can be
+found in fixed_hash_map. The readme has the usage information for both packages, and require a standard golang distribution version +1.4.
